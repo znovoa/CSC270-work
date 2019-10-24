@@ -1,3 +1,5 @@
-# CSC270-work
+# Émile Zola, The Ladies' Paradise
 
-This is Zoe Novoa's repository for Computer Science 270.
+Status: In Progress
+
+*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 50th French edition.
