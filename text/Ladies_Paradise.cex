@@ -1,3 +1,17 @@
+
+#!cexversion
+3.0
+
+#!citelibrary
+name#AUTHOR_NAME
+urn#urn:cite2:cex:fufolio.2019a:texts
+license#CC Share Alike.  For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:fuTexts:GROUP.WORK.VERSION:#CITATION-SCHEME#NAME-OF-GROUP#TITLE-OF-WORK#INFO-ABOUT-VERSION##true#eng
+
+#!ctsdata
 urn:cts:fuTexts:zola.paradise.novoa:﻿i.1#﻿CHAPTER I.
 urn:cts:fuTexts:zola.paradise.novoa:﻿i.2#DENISE had walked from the Saint-Lazare railway station, where a Cherbourg train had landed her and her two brothers, after a night passed on the hard seat of a third-class carriage. She was leading Pépé by the hand, and Jean was following her, all three fatigued after the journey, frightened and lost in this vast Paris, their eyes on every street name, asking at every corner the way to the Rue de la Michodière, where their uncle Baudu lived. But on arriving in the Place Gaillon, the young girl stopped short, astonished.
 urn:cts:fuTexts:zola.paradise.novoa:﻿i.3#“Oh! look there, Jean,” said she; and they stood still, nestling close to one another, all dressed in black, wearing the old mourning bought at their father's death. She, rather puny for her twenty years, was carrying a small parcel; on the other side, her little brother, five years old, was clinging to her arm; while behind her, the big brother, a strapping youth of sixteen, was standing empty-handed.
