@@ -6,7 +6,9 @@ val myLines: Vector[String] = loadFile("text/TheLadiesParadise.txt")
 
 val oneBigString: String = myLines.mkString(" ")
 
-val myChars:  Vector[Char] = oneBigString.toVector
+val myChars:  Vector[Char] = oneBigString.toVector.filter( c => {
+	c.toHexString != "feff"
+})
 
 val myBetterChars: Vector[String] = myChars.map(_.toString)
 
@@ -25,4 +27,10 @@ val charHistoUnsorted: Vector[ (String, Int) ] = {
 val charHisto: Vector[ (String, Int) ] = charHistoUnsorted.sortBy( _._2 ).reverse
 
 val someHisto: Vector[ ( String, Int ) ] = charHisto
+
+val codes: Vector[String] = someHisto.map( t => {
+	val myChar: Char = t._1.toVector.head
+	myChar.toHexString
+})
+
 for ( h <- charHisto ) println( s"${h._1}\t${h._2}" )
