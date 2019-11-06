@@ -4,7 +4,11 @@
 		module="csc270-work-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20191011171611"
+=======
+		publication="20191028164154"
+>>>>>>> 9f36b5f4f71b3aea8d14c88254197340fdfed1d3
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

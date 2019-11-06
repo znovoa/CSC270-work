@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /vagrant/CSC270-work/project/target/scala-2.12/sbt-1.0/classes
+=======
+/home/vagrant/CSC270-work/project/target/scala-2.12/sbt-1.0/classes
+>>>>>>> 9f36b5f4f71b3aea8d14c88254197340fdfed1d3

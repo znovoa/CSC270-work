@@ -4,7 +4,11 @@
 		module="workbench_2.12"
 		revision="0.0.1"
 		status="integration"
+<<<<<<< HEAD
 		publication="20191011171635"
+=======
+		publication="20191101173759"
+>>>>>>> 9f36b5f4f71b3aea8d14c88254197340fdfed1d3
 	>
 		<description>
 		workbench
@@ -32,13 +36,23 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+<<<<<<< HEAD
 		<dependency org="edu.holycross.shot.cite" name="xcite_2.12" rev="4.1.0" conf="compile->default(compile)"/>
+=======
+		<dependency org="edu.holycross.shot.cite" name="xcite_2.12" rev="4.1.1" conf="compile->default(compile)"/>
+>>>>>>> 9f36b5f4f71b3aea8d14c88254197340fdfed1d3
 		<dependency org="edu.holycross.shot" name="ohco2_2.12" rev="10.13.2" conf="compile->default(compile)"/>
 		<dependency org="edu.holycross.shot" name="scm_2.12" rev="7.0.1" conf="compile->default(compile)"/>
 		<dependency org="edu.holycross.shot" name="citebinaryimage_2.12" rev="3.1.0" conf="compile->default(compile)"/>
 		<dependency org="edu.holycross.shot" name="citeobj_2.12" rev="7.3.4" conf="compile->default(compile)"/>
 		<dependency org="edu.holycross.shot" name="citerelations_2.12" rev="2.5.2" conf="compile->default(compile)"/>
 		<dependency org="edu.holycross.shot" name="cex_2.12" rev="6.3.3" conf="compile->default(compile)"/>
+<<<<<<< HEAD
 		<dependency org="edu.furman.classics" name="citewriter_2.12" rev="1.0.1" conf="compile->default(compile)"/>
+=======
+		<dependency org="edu.holycross.shot" name="greek_2.12" rev="2.3.3" conf="compile->default(compile)"/>
+		<dependency org="edu.furman.classics" name="citewriter_2.12" rev="1.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.github.pathikrit" name="better-files_2.12" rev="3.8.0" conf="compile->default(compile)"/>
+>>>>>>> 9f36b5f4f71b3aea8d14c88254197340fdfed1d3
 	</dependencies>
 </ivy-module>
