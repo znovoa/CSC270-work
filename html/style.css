@@ -1,9 +1,9 @@
 html {
 	margin: 3em;
-	background-color: #ddd;
-	font-family: Helvetica, Ariel, sans;
+	background-color: #fddab0;
+	font-family: "Courier New", monospace, sans;
 	line-height: 1.5em;
-	color: green;
+	color: navy;
 }
 
 
@@ -16,8 +16,8 @@ a {
 
 /* :hover	 is what it will look like when you hover the mouse over an element */
 a:hover {
-	background-color: yellow;
-	border: 2px solid red ;
+	background-color: #fdfdb0;
+	border: 5px dashed skyblue ;
 }
 
 /* You can define any color with a 3-digit "hex-code" */
@@ -44,7 +44,7 @@ div {
 	 in the HTML)
 */
 div.cts_corpus {
-	border: 4px dashed #00f;
+	border: 5px dashed red;
 }
 
 
@@ -84,4 +84,3 @@ div.cts_corpus {
 progress.cts_progress {
 	width: 100%;
 }
-
