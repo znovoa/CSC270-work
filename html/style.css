@@ -22,7 +22,7 @@ a:hover {
 /* You can define any color with a 3-digit "hex-code" */
 /* The three values are from 0-F, and represent Red, Green, Blue */
 header {
-	color: blue;
+	color: #000066;
 	font-size: 200%;
 	text-align: center;
 }
