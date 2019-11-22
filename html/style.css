@@ -1,6 +1,6 @@
 html {
 	margin: 3em;
-	background-color: #ebf0fa;
+	background-color: #f0f0f5;
 	font-family: "Courier New", monospace, sans;
 	line-height: 1.5em;
 	color: #000066;
@@ -15,8 +15,8 @@ a {
 
 /* :hover	 is what it will look like when you hover the mouse over an element */
 a:hover {
-	background-color: #lightblue;
-	border: 5px dashed skyblue ;
+	background-color: #cccccc;
+	border: 3px dashed #000066;
 }
 
 /* You can define any color with a 3-digit "hex-code" */
@@ -35,8 +35,18 @@ article {
 /* Styles attached to element-names apply to _every_ element
 	 with that name */
 div {
-	border-radius: 25px;
-		border: 1px solid #000000;
+		padding: 5px;
+		text-align: center;
+}
+
+div.cts_node {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.cts_progress {
 		padding: 5px;
 		text-align: center;
 }
@@ -46,7 +56,7 @@ div {
 	 in the HTML)
 */
 div.cts_corpus {
-	  border: 2px solid #ff901a;
+	  border: 2px solid #660066;
 	  padding: 20px;
 		text-align: center;
 }
@@ -87,4 +97,8 @@ div.cts_corpus {
 
 progress.cts_progress {
 	width: 100%;
+}
+
+footer {
+	text-align: center;
 }
