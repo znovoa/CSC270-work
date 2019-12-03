@@ -39,6 +39,7 @@ div {
 		text-align: center;
 }
 
+
 div.cts_node {
 	border: none;
 	margin-left: auto;
@@ -58,7 +59,7 @@ div.cts_progress {
 div.cts_corpus {
 	  border: 2px solid #660066;
 	  padding: 20px;
-		text-align: center;
+		text-align: justify;
 }
 
 
