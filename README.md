@@ -1,13 +1,14 @@
 # Émile Zola, The Ladies' Paradise
 
-Status: In Progress
+Citable Digital Edition
+**Status**: In Progress
 
 ## Bibliography
-*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 80th French edition. London: Vizetelly And Company, 1886.
+*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 80th French edition. London: Vizetelly And Company, 1883.
 
 Émile Zola was a 19th century French political activist, critic, and novelist.
 
-The Ladies' Paradise is a novel set in a department store, a mid 19th century development in retail. Zola used a real store as inspiration for the workings of his fictional store. This is the 11th novel in Zola's Rougon-Macquart series, a series that looked at how environment and heredity affected a family in the span of the Second French Empire, the environment in this novel being a department store.
+First published in 1883, *The Ladies' Paradise* is a novel set in a department store, a mid 19th century development in retail. Zola used a real store as inspiration for the workings of his fictional store. This is the 11th novel in Zola's Rougon-Macquart series, a series that looked at how environment and heredity affected a family in the span of the Second French Empire, the environment in this novel being a department store.
 
 The file in `text/Ladies_Paradise.cex` is intended for machine-processing and is validated in regards to character-set and spelling.
 
@@ -17,7 +18,7 @@ This version of the text is in the [Public Domain](https://creativecommons.org/p
 
 ![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
-## Using Scripts to Validate, Reproduce, and Analyze
+## Running Scripts for Validation, Publication, and Analysis
 Everything in this repository should be reproducible. It is a project using Scala code.
 ### Requirements
 - Java JDK 1.8 or higher.
