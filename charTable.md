@@ -1,27 +1,3 @@
-# Émile Zola, The Ladies' Paradise
-
-Status: In Progress
-
-*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 50th French edition.
-
-## Bibliography
-
-## Using Scripts to Validate, Reproduce, and Analyze
-Everything in this repository should be reproducible. It is a project using Scala code.
-### Requirements
-- Java JDK 1.8 or higher.
-- [SBT](https://www.scala-sbt.org) installed and on the PATH.
-### Running
-- Clone this repository.
-- Navigate to the root level.
-`$ sbt console`
-`scala> :load scripts/char-validate.sc`
-
-## Code Contents
-
-### Character Validation
-The characters in this text have been validated to character-set using a [Scala script](https://github.com/znovoa/CSC270-work/blob/master/scripts/corpus-char-validate.sc). The following is a table of the characters that are in the text.
-
 | Character | Character | Character | Character | Character |
 |-----------|-----------|-----------|-----------|-----------|
 | `space` (20) | `!` (21) | `&` (26) | `'` (27) | `*` (2a) |
@@ -43,8 +19,3 @@ The characters in this text have been validated to character-set using a [Scala 
 | `â` (e2) | `ç` (e7) | `è` (e8) | `é` (e9) | `ê` (ea) |
 | `ï` (ef) | `ô` (f4) | `ÿ` (ff) | `“` (201c) | `”` (201d) |
 | `﻿` (feff) |
-
-This can be reproduced through:
-
-`$ sbt console
-scala> :load scripts/corpus-char-validate.sc`
