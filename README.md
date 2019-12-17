@@ -2,9 +2,16 @@
 
 Status: In Progress
 
-*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 50th French edition.
-
 ## Bibliography
+*The Ladies' Paradise*, Émile Zola. Translated without abridgment from the 80th French edition. London: Vizetelly And Company, 1886.
+
+Émile Zola was a 19th century French political activist, critic, and novelist.
+
+The Ladies' Paradise is a novel set in a department store, a mid 19th century development in retail. Zola used a real store as inspiration for the workings of his fictional store. This is the 11th novel in Zola's Rougon-Macquart series, a series that looked at how environment and heredity affected a family in the span of the Second French Empire, the environment in this novel being a department store.
+
+The file in `text/Ladies_Paradise.cex` is intended for machine-processing and is validated in regards to character-set and spelling.
+
+A human-readable HTML site made from the `.cex` file can be found in `html/`. The scripts that generated these HTML pages can be found in `/src/main/scala`
 
 ## Using Scripts to Validate, Reproduce, and Analyze
 Everything in this repository should be reproducible. It is a project using Scala code.
@@ -14,8 +21,8 @@ Everything in this repository should be reproducible. It is a project using Scal
 ### Running
 - Clone this repository.
 - Navigate to the root level.
-`$ sbt console`
-`scala> :load scripts/char-validate.sc`
+- `$ sbt console`
+- `scala> :load scripts/corpus-char-validate.sc`
 
 ## Code Contents
 
@@ -45,6 +52,8 @@ The characters in this text have been validated to character-set using a [Scala 
 | `﻿` (feff) |
 
 This can be reproduced through:
-
-`$ sbt console
-scala> :load scripts/corpus-char-validate.sc`
+~~~
+$ sbt console
+scala> :load scripts/corpus-char-validate.sc
+~~~
+This should create the file `validation-data/charTable.md` which shows each character in the text along with its Unicode value.
