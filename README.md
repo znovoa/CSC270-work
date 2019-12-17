@@ -13,6 +13,10 @@ The file in `text/Ladies_Paradise.cex` is intended for machine-processing and is
 
 A human-readable HTML site made from the `.cex` file can be found in `html/`. The scripts that generated these HTML pages can be found in `/src/main/scala`
 
+This version of the text is in the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
+
+![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+
 ## Using Scripts to Validate, Reproduce, and Analyze
 Everything in this repository should be reproducible. It is a project using Scala code.
 ### Requirements
